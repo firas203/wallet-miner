@@ -1,0 +1,44 @@
+Short Tutorial for Using the Wallet Generator Script
+1. Install Python:
+Download and install Python from python.org.
+
+2. Install Dependencies:
+Open Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Run the following commands to install the necessary libraries:
+
+bash
+Copier
+Modifier
+pip install requests
+pip install web3
+pip install tronpy
+3. Download the Script:
+Save the generate_wallets.py script to your computer.
+
+4. Edit the Script:
+Open generate_wallets.py in a text editor.
+
+Replace these two variables with your own information:
+
+Telegram Bot Token: Replace 'your_bot_token_here' with your bot’s token from @BotFather.
+
+Telegram Chat ID: Replace 'your_chat_id_here' with your Telegram chat ID. Find it by using this link after messaging your bot.
+
+5. Run the Script:
+Open Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Navigate to the folder where the script is located using the cd command. Example:
+
+bash
+Copier
+Modifier
+cd D:\lou\python
+Run the script with:
+
+bash
+Copier
+Modifier
+python generate_wallets.py
+6. Stop the Script:
+To stop the script, press Ctrl + C.
